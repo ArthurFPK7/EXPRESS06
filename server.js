@@ -1,8 +1,12 @@
 const express = require('express');
+
 const mysql = require('mysql2');
+
 const cors = require('cors')
 
+
 const app = express();
+
 const mysql_config = require('./mysql_config');
 
 const functions = require('./functions');
